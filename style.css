@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    display: block;
+    background-color: #7696DB;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+nav {
+    background-color: #1c2539;
+    padding: 25px 0px 0px 10px;
+}
+
+nav>a {
+    font-family: 'Rosario', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+
+    width: 100%;
+
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav>a:hover {
+    background-color: rgba(0, 0, 0, 0.477);
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.501);
+    transition: 0.5s;
+}
+
+header {
+    /* background: linear-gradient(to bottom, #96a1b8, #6987c8, #4b6292, #000f2f); */
+    width: 100%;
+    background-color: #1c2539;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+
+    min-height: 150px;
+    padding-top: 40px;
+    padding-right: 20px;
+    margin: -20px -20px 20px;
+}
+
+header>h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    ;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.495);
+    font-size: 48px;
+    padding-left: 30px;
+
+}
+
+header>p {
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+main {
+    border-radius: 4px;
+
+    text-align: justify;
+    text-indent: 30px;
+
+    margin: auto;
+    padding: 20px;
+
+    width: 80%;
+
+    background-color: white;
+    max-width: 1000px;
+    box-shadow: 2px 2px 10px black;
+}
+
+h2 {
+    /* background-color: #5C74A9; */
+    background: linear-gradient(to right, #5c74a978, #7696DB78, white);
+    margin: 15px 0px;
+    color: #000f2f;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.668);
+}
+
+p {
+    margin: 15px 0px;
+}
+
+ol {
+    list-style-position: inside;
+    margin: 20px;
+}
+
+#video {
+    padding: 20px;
+    margin: 0px -20px -20px;
+    background-color: #1c2539;
+
+}
+
+#video>iframe {
+    max-width: 100% !important;
+    display: block;
+    margin: auto;
+
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: black;
+    margin: 15px 0px 0px 0px;
+}
+
+footer>p {
+    margin: 0px;
+}
